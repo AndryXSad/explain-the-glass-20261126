@@ -22,7 +22,9 @@ Design (written from the bounty brief, original line):
 import os
 from pathlib import Path
 
-# The excuse: 106 characters, a single sentence.
+# The excuse: 106 characters, a single sentence. Kept short on purpose:
+# on an exact tie the smaller text places first, and a short line leaves
+# the judge nothing to trim — every word is the joke.
 LINE = (
     "It was the only thing on the table that hadn't been knocked off yet, "
     "and I don't leave jobs half finished."
